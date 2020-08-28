@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity implements OnRxEventListener
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.tv_click:
-                RxBus.getInstance().send(new RxData(RxCode.OnWelcomeListener.REQUEST_PERMISSION_SUCCESS));
-                break;
-        }
+//        switch (view.getId()){
+//            case R.id.tv_click:
+//                RxBus.getInstance().send(new RxData(RxCode.OnWelcomeListener.REQUEST_PERMISSION_SUCCESS));
+//                break;
+//        }
     }
 
     @Override
